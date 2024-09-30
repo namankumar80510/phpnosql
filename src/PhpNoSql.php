@@ -43,7 +43,7 @@ class PhpNoSql implements \ArrayAccess, \Countable, \IteratorAggregate
         $this->config = array_merge([
             'db_path' => [
                 'development' => __DIR__ . '/db',
-                'production' => '/var/www/db',
+                'production' => __DIR__ . '/db',
             ],
             'auto_commit' => true,
             'cache_size' => 1000,
