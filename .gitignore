@@ -1,0 +1,5 @@
+vendor/
+db/
+test.php
+composer.lock
+.DS_Store
